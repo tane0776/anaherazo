@@ -6,8 +6,19 @@
     "linea": "founder de kindu · periodista de tech · growth en no big deal · medellín",
     "frase": "no tuve suerte. tuve intentos.",
     "sobre_mi": "construyo cosas con ia y conecto a quien tiene una idea con quien la puede mover. empecé desde la misma carrera que cualquiera: lo que cambió fue intentar muchas veces y rápido.",
-    "idiomas": ["español", "inglés", "francés", "japonés (aprendiendo)"],
-    "links": {"linkedin": "https://www.linkedin.com/in/asherazo", "instagram": "https://instagram.com/herazozzz", "x": "https://x.com/herazozz", "substack": "", "email": "herazoana@icloud.com"},
+    "idiomas": [
+      "español",
+      "inglés",
+      "francés",
+      "japonés (aprendiendo)"
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/asherazo",
+      "instagram": "https://instagram.com/herazozzz",
+      "x": "https://x.com/herazozz",
+      "substack": "",
+      "email": "herazoana@icloud.com"
+    },
     "cta": "escríbeme para asesorías, charlas o mesas sobre ia"
   },
   "destacados": [
@@ -16,45 +27,162 @@
       "nombre": "kindu lessons",
       "rol": "founder · mar 2025 – hoy",
       "resumen": "tutorías personalizadas 1 a 1 para estudiantes de colegio en medellín, online o presenciales. kindu encuentra al tutor cuyo estilo encaja con cómo aprende cada niño y sigue su progreso con un perfil de aprendizaje que se alimenta después de cada clase.",
-      "logros": ["2º lugar en el demo day de on.going eafit (2026)", "~21 tutores y 40 familias activas (ago 2026)", "más de 70 millones de cop en ventas", "plataforma interna construida con ia (crm, portal de tutores, perfiles de aprendizaje)"],
+      "logros": [
+        "2º lugar en el demo day de on.going eafit (2026)",
+        "más de 100 millones de cop en ventas en 2026"
+      ],
       "lema": "no todos aprendemos igual. y está bien.",
-      "link": "https://instagram.com/kindu.lessons",
-      "link_label": "kindu en instagram"
+      "plataforma": {
+        "titulo": "plataforma interna construida con ia",
+        "resumen": "todo kindu corre sobre herramientas que construí con ia, sin equipo de ingeniería tradicional.",
+        "items": [
+          {
+            "nombre": "crm",
+            "detalle": "familias, estudiantes, clases, pagos y finanzas en un solo lugar, desde el primer contacto hasta la renovación."
+          },
+          {
+            "nombre": "portal de tutores",
+            "detalle": "cada tutor ve su agenda, sus pagos, su perfil y una academia para formarse en el método kindu."
+          },
+          {
+            "nombre": "perfiles de aprendizaje",
+            "detalle": "el reporte que el tutor escribe después de cada clase alimenta un perfil del estudiante armado con ia."
+          },
+          {
+            "nombre": "portal de familias",
+            "detalle": "los papás siguen el progreso de su hijo sin tener que preguntar."
+          },
+          {
+            "nombre": "conectado a claude",
+            "detalle": "puedo preguntarle al negocio en lenguaje natural: ventas, clases, tutores."
+          }
+        ]
+      },
+      "links": [
+        {
+          "url": "https://instagram.com/kindu.lessons",
+          "label": "kindu en instagram"
+        },
+        {
+          "url": "https://kindulessons.substack.com",
+          "label": "kindu en substack"
+        }
+      ]
     },
     {
       "id": "espacio",
       "nombre": "periodismo de tech · espacio media",
       "rol": "periodista freelance · nov 2025 – hoy",
       "resumen": "escribo sobre ia, startups, venture capital y latinoamérica para medios de varios países.",
-      "medios": ["fast company méxico (incl. edición impresa)", "forbes centroamérica", "entrepreneur eu", "international business times", "the sociable", "contxto", "the latin times", "150sec", "the ai journal", "customerthink", "de mujeres", "startupbeat"],
+      "medios": [
+        "fast company méxico (incl. edición impresa)",
+        "forbes centroamérica",
+        "entrepreneur eu",
+        "international business times",
+        "the sociable",
+        "contxto",
+        "the latin times",
+        "150sec",
+        "the ai journal",
+        "customerthink",
+        "de mujeres",
+        "startupbeat"
+      ],
       "articulos_confirmados": [
-        {"titulo": "what the eu parliament's ai shutdown should teach founders about building trusted products", "medio": "entrepreneur eu", "fecha": "2026-06", "url": "https://eu.entrepreneur.com/technology/what-the-eu-parliaments-ai-shutdown-should-teach-founders-about-building-trusted-products"},
-        {"titulo": "medellín: el siguiente hub de innovación y emprendimiento de latinoamérica", "medio": "contxto", "fecha": "2026-03", "url": "https://contxto.com/es/venture-capital-es/medellin-como-hub-de-innovacion-y-emprendimiento-en-latinoamerica/"},
-        {"titulo": "what's in store for latin america's venture capital landscape in 2026", "medio": "the latin times", "fecha": "2026-03", "url": "https://www.latintimes.com/look-whats-store-latin-americas-venture-capital-landscape-2026-595703"}
+        {
+          "titulo": "what the eu parliament's ai shutdown should teach founders about building trusted products",
+          "medio": "entrepreneur eu",
+          "fecha": "2026-06",
+          "url": "https://eu.entrepreneur.com/technology/what-the-eu-parliaments-ai-shutdown-should-teach-founders-about-building-trusted-products"
+        },
+        {
+          "titulo": "medellín: el siguiente hub de innovación y emprendimiento de latinoamérica",
+          "medio": "contxto",
+          "fecha": "2026-03",
+          "url": "https://contxto.com/es/venture-capital-es/medellin-como-hub-de-innovacion-y-emprendimiento-en-latinoamerica/"
+        },
+        {
+          "titulo": "what's in store for latin america's venture capital landscape in 2026",
+          "medio": "the latin times",
+          "fecha": "2026-03",
+          "url": "https://www.latintimes.com/look-whats-store-latin-americas-venture-capital-landscape-2026-595703"
+        }
       ],
       "articulos_por_confirmar_byline": [
-        {"titulo": "américa latina adoptó la ia antes de confiar en ella. la criptografía podría cerrar esa brecha", "medio": "forbes centroamérica", "url": "https://forbescentroamerica.com/2026/09/23/america-latina-adopto-la-ia-antes-de-confiar-en-ella-la-criptografia-podria-cerrar-esa-brecha/"},
-        {"titulo": "the access filter: how founders choose which conferences earn their budget", "medio": "international business times", "url": "https://www.ibtimes.com/access-filter-how-founders-choose-which-conferences-should-earn-their-budget-3807707"},
-        {"titulo": "qué es la sovereign ai y por qué las empresas latinoamericanas pueden liderar la oportunidad", "medio": "fast company méxico", "url": "https://fastcompany.mx/2026/02/24/ia-soberana-oportunidad-latinoamerica-no-puede-ignorar/"},
-        {"titulo": "ai slop: el océano de contenido que amenaza con hundir a los negocios", "medio": "fast company méxico", "url": "https://fastcompany.mx/2026/01/30/ai-slop-oceano-contenido-amenaza-hundir-negocios/"},
-        {"titulo": "la segunda ola del nearshoring: de las fábricas a las oficinas invisibles", "medio": "fast company méxico (impresa)", "url": ""},
-        {"titulo": "the skills economy: building hr teams that outlearn change", "medio": "the sociable", "url": "https://sociable.co/business/canadas-skills-economy-how-hr-teams-can-outlearn-change/"}
+        {
+          "titulo": "américa latina adoptó la ia antes de confiar en ella. la criptografía podría cerrar esa brecha",
+          "medio": "forbes centroamérica",
+          "url": "https://forbescentroamerica.com/2026/09/23/america-latina-adopto-la-ia-antes-de-confiar-en-ella-la-criptografia-podria-cerrar-esa-brecha/"
+        },
+        {
+          "titulo": "the access filter: how founders choose which conferences earn their budget",
+          "medio": "international business times",
+          "url": "https://www.ibtimes.com/access-filter-how-founders-choose-which-conferences-should-earn-their-budget-3807707"
+        },
+        {
+          "titulo": "qué es la sovereign ai y por qué las empresas latinoamericanas pueden liderar la oportunidad",
+          "medio": "fast company méxico",
+          "url": "https://fastcompany.mx/2026/02/24/ia-soberana-oportunidad-latinoamerica-no-puede-ignorar/"
+        },
+        {
+          "titulo": "ai slop: el océano de contenido que amenaza con hundir a los negocios",
+          "medio": "fast company méxico",
+          "url": "https://fastcompany.mx/2026/01/30/ai-slop-oceano-contenido-amenaza-hundir-negocios/"
+        },
+        {
+          "titulo": "la segunda ola del nearshoring: de las fábricas a las oficinas invisibles",
+          "medio": "fast company méxico (impresa)",
+          "url": ""
+        },
+        {
+          "titulo": "the skills economy: building hr teams that outlearn change",
+          "medio": "the sociable",
+          "url": "https://sociable.co/business/canadas-skills-economy-how-hr-teams-can-outlearn-change/"
+        }
       ]
     },
     {
       "id": "nobigdeal",
       "nombre": "no big deal",
       "rol": "founding growth marketer · oct 2026 – hoy",
-      "resumen": "marca de skincare para piel joven (lanza en octubre de 2026). armo la tienda, el funnel y el sistema del equipo para trabajar con ia."
+      "resumen": "marca de skincare para piel joven (lanza en octubre de 2026). armo la plataforma y la estrategia de e-commerce, y el second brain de la empresa: el sistema donde vive lo que el equipo sabe y decide, listo para trabajar con ia."
     }
   ],
   "trayectoria": [
-    {"nombre": "seed program · japón", "rol": "líder del equipo sake · 2024", "detalle": "programa de emprendimiento social que conecta empresas de yamanashi con estudiantes de latinoamérica. trabajé con las destilerías taikan y shichiken. fue lo que me enamoró del emprendimiento y la primera vez que usé mi japonés de verdad."},
-    {"nombre": "eafit un society", "rol": "directora académica · co chief · head delegate · 2021–2024", "detalle": "equipos de hasta 40 personas organizando eafitmun y un talks; alianzas por más de 6,5 millones de cop. delegaciones a parís, panamá y bogotá.", "logros": ["mejor delegación · munur 2023", "mención verbal · worldmun 2023"]},
-    {"nombre": "medmun · alcaldía de medellín", "rol": "formadora", "detalle": "formé estudiantes de colegio en modelo de naciones unidas: 9 de 15 premiados en un evento de más de 450 participantes."},
-    {"nombre": "next (30x)", "rol": "ventas · abr–ago 2026", "detalle": "ventas en un programa de emprendimiento e ia para jóvenes de 13 a 18 años."},
-    {"nombre": "tinka smart connection", "rol": "junior business analyst · 2023–2025", "detalle": "investigación de mercados nacionales e internacionales para clientes públicos y privados."},
-    {"nombre": "eafit", "rol": "economía + negocios internacionales · grado jul 2026", "detalle": "semillero de coyuntura económica, representante estudiantil y asistente de investigación. hice mi práctica en la empresa que fundé."}
+    {
+      "nombre": "seed program · japón",
+      "rol": "líder del equipo sake · 2024",
+      "detalle": "programa de emprendimiento social que conecta empresas de yamanashi con estudiantes de latinoamérica. trabajé con las destilerías taikan y shichiken. fue lo que me enamoró del emprendimiento y la primera vez que usé mi japonés de verdad."
+    },
+    {
+      "nombre": "eafit un society",
+      "rol": "directora académica · co chief · head delegate · 2021–2024",
+      "detalle": "equipos de hasta 40 personas organizando eafitmun y un talks; alianzas por más de 6,5 millones de cop. delegaciones a parís, panamá y bogotá.",
+      "logros": [
+        "mejor delegación · munur 2023",
+        "mención verbal · worldmun 2023"
+      ]
+    },
+    {
+      "nombre": "medmun · alcaldía de medellín",
+      "rol": "formadora",
+      "detalle": "formé estudiantes de colegio en modelo de naciones unidas: 9 de 15 premiados en un evento de más de 450 participantes."
+    },
+    {
+      "nombre": "next (30x)",
+      "rol": "ventas · abr–ago 2026",
+      "detalle": "ventas en un programa de emprendimiento e ia para jóvenes de 13 a 18 años."
+    },
+    {
+      "nombre": "tinka smart connection",
+      "rol": "junior business analyst · 2023–2025",
+      "detalle": "investigación de mercados nacionales e internacionales para clientes públicos y privados."
+    },
+    {
+      "nombre": "eafit",
+      "rol": "economía + negocios internacionales · grado jul 2026",
+      "detalle": "semillero de coyuntura económica, representante estudiantil y asistente de investigación. hice mi práctica en la empresa que fundé."
+    }
   ],
   "premios": [
     "2º lugar · demo day on.going eafit (2026)",
@@ -67,11 +195,30 @@
   "recomendaciones": [],
   "ui": {
     "_nota": "textos de la interfaz (títulos, botones, notas). también se editan aquí.",
-    "nav": {"sobre_mi": "sobre mí", "destacados": "destacados", "trayectoria": "trayectoria", "premios": "premios", "recomendaciones": "recomendaciones", "contacto": "contacto"},
+    "nav": {
+      "sobre_mi": "sobre mí",
+      "destacados": "destacados",
+      "trayectoria": "trayectoria",
+      "premios": "premios",
+      "recomendaciones": "recomendaciones",
+      "contacto": "contacto"
+    },
     "saltar": "ir al contenido",
     "texto_circular": "doodle to done • ana herazo • ",
     "ver_proyectos": "ver proyectos ↓",
-    "titulos": {"sobre_mi": "sobre mí", "idiomas": "idiomas", "destacados": "destacados", "logros": "logros", "medios": "he publicado en", "articulos": "artículos", "leer": "leer artículo ↗", "trayectoria": "trayectoria", "premios": "premios", "recomendaciones": "recomendaciones", "contacto": "contacto"},
+    "titulos": {
+      "sobre_mi": "sobre mí",
+      "idiomas": "idiomas",
+      "destacados": "destacados",
+      "logros": "logros",
+      "medios": "he publicado en",
+      "articulos": "artículos",
+      "leer": "leer artículo ↗",
+      "trayectoria": "trayectoria",
+      "premios": "premios",
+      "recomendaciones": "recomendaciones",
+      "contacto": "contacto"
+    },
     "recomendaciones_vacio": "aquí van a llegar las recomendaciones de gente con la que he trabajado",
     "recomendaciones_boton": "déjame una recomendación",
     "recomendaciones_asunto": "una recomendación para ana",

@@ -3,7 +3,7 @@ import { LiquidButton } from "@/components/ui/liquid-glass-button";
 import {
   articuloHref,
   articulos,
-  destacadoHref,
+  destacadoLinks,
   destacados,
   fechaCorta,
   ui,
@@ -59,7 +59,7 @@ function ArticuloCard({ a }: { a: Articulo }) {
 
 function Tarjeta({ d, grande }: { d: Destacado; grande?: boolean }) {
   const lista = articulos(d);
-  const link = destacadoHref(d);
+  const links = destacadoLinks(d);
   return (
     <article
       aria-labelledby={`d-${d.id}`}
@@ -83,6 +83,21 @@ function Tarjeta({ d, grande }: { d: Destacado; grande?: boolean }) {
       {d.logros?.length ? (
         <div className="mt-8">
           <Logros logros={d.logros} />
+        </div>
+      ) : null}
+
+      {d.plataforma ? (
+        <div className="mt-8 rounded-3xl bg-ciruela p-6 text-hoja sm:p-8">
+          <Etiqueta className="text-mantequilla">{d.plataforma.titulo}</Etiqueta>
+          {d.plataforma.resumen ? <p className="mt-3 max-w-3xl text-lg leading-relaxed">{d.plataforma.resumen}</p> : null}
+          <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {d.plataforma.items.map((it) => (
+              <li key={it.nombre} className="rounded-2xl bg-hoja/10 p-4">
+                <p className="font-doodle text-2xl leading-none text-mantequilla">{it.nombre}</p>
+                <p className="mt-2 text-base leading-snug">{it.detalle}</p>
+              </li>
+            ))}
+          </ul>
         </div>
       ) : null}
 
@@ -112,11 +127,13 @@ function Tarjeta({ d, grande }: { d: Destacado; grande?: boolean }) {
         </div>
       ) : null}
 
-      {link ? (
-        <div className="mt-8">
-          <LiquidButton href={link} target="_blank" rel="noopener noreferrer" tone="cafe" size="sm">
-            {d.link_label || d.nombre} ↗
-          </LiquidButton>
+      {links.length ? (
+        <div className="mt-8 flex flex-wrap gap-3">
+          {links.map((l) => (
+            <LiquidButton key={l.url} href={l.url} target="_blank" rel="noopener noreferrer" tone="cafe" size="sm">
+              {l.label} ↗
+            </LiquidButton>
+          ))}
         </div>
       ) : null}
     </article>
