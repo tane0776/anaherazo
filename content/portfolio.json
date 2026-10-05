@@ -63,5 +63,18 @@
     "mejor delegación · munur 2023",
     "mención verbal · worldmun 2023"
   ],
-  "recomendaciones": []
+  "recomendaciones": [],
+  "ui": {
+    "_nota": "textos de la interfaz (títulos, botones, notas). también se editan aquí.",
+    "nav": {"sobre_mi": "sobre mí", "destacados": "destacados", "trayectoria": "trayectoria", "premios": "premios", "recomendaciones": "recomendaciones", "contacto": "contacto"},
+    "saltar": "ir al contenido",
+    "texto_circular": "doodle to done • ana herazo • ",
+    "ver_proyectos": "ver proyectos ↓",
+    "titulos": {"sobre_mi": "sobre mí", "idiomas": "idiomas", "destacados": "destacados", "logros": "logros", "medios": "he publicado en", "articulos": "artículos", "leer": "leer artículo ↗", "trayectoria": "trayectoria", "premios": "premios", "recomendaciones": "recomendaciones", "contacto": "contacto"},
+    "recomendaciones_vacio": "aquí van a llegar las recomendaciones de gente con la que he trabajado",
+    "recomendaciones_boton": "déjame una recomendación",
+    "recomendaciones_asunto": "una recomendación para ana",
+    "recomendaciones_sin_email": "el correo para recomendaciones se activa pronto",
+    "footer": "ana herazo · doodle to done · medellín"
+  }
 }
