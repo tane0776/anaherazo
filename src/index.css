@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Doodle Hand";
+  src: url("/fonts/DoodleHand.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-ciruela: #655a7c;
+  --color-hoja: #fdf1e2;
+  --color-mantequilla: #fedf85;
+  --color-cafe: #3f2b24;
+
+  --font-doodle: "Doodle Hand", "Kalam", cursive;
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+
+  --animate-spin-slow: spin 22s linear infinite;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-ciruela font-sans text-hoja antialiased;
+    overflow-x: hidden;
+    text-transform: lowercase;
+  }
+  ::selection {
+    background: var(--color-mantequilla);
+    color: var(--color-cafe);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-mantequilla);
+    outline-offset: 3px;
+    border-radius: 9999px;
+  }
+  .tono-mantequilla :focus-visible {
+    outline-color: var(--color-ciruela);
+  }
+}
+
+/* fondo de liquid glass para navegadores sin backdrop-filter: url() (safari, firefox) */
+.glass-fallback {
+  -webkit-backdrop-filter: blur(6px) saturate(140%);
+  backdrop-filter: blur(6px) saturate(140%);
+}
+@supports (backdrop-filter: url(#container-glass)) {
+  .glass-filter {
+    backdrop-filter: url(#container-glass);
+  }
+}
+
+.sr-only-focusable:not(:focus):not(:focus-within) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
