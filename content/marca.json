@@ -1,0 +1,88 @@
+{
+  "version": "v1-borrador-2026-10-04",
+  "nombre": "ana herazo",
+  "minuscula_siempre": true,
+  "concepto": "doodle to done",
+  "idea_central": "plataforma de posibilidades",
+  "palabra_clave": "agencia",
+  "bio": "founder de kindu · periodista de tech en fast company y entrepreneur",
+  "color": {
+    "base": {
+      "ciruela": "#655A7C",
+      "hoja": "#FDF1E2",
+      "acento": "mantequilla #FEDF85"
+    },
+    "respiro": {
+      "mantequilla": "#FEDF85",
+      "cafe": "#3F2B24",
+      "acento": "ciruela #655A7C"
+    },
+    "nota": "sistema de 4 colores elegido 2026-10-05; cielo y lavanda fuera"
+  },
+  "tipografia": {
+    "titulares": "Doodle Hand = Pecita retocada (2026-10-05): todas las t conectadas usan la t limpia (glifo t.I_), sin ligaduras tt; el resto sigue conectado. Archivo Assets/fuentes/DoodleHand.otf + DoodleHand-LICENSE.txt (SIL OFL; renombrada porque 'Pecita' es nombre reservado). Fallback Kalam.",
+    "notas": "Doodle Hand en cetro #882A2A (una sola letra a mano; Nothing You Could Do descartada 2026-10-05)",
+    "texto": "Figtree",
+    "etiqueta": "DM Mono",
+    "equivalencias": {
+      "Organic Hand": "Kalam",
+      "Belmonte Ballpoint": "Nothing You Could Do",
+      "Cs Airena": "La Belle Aurore",
+      "Junky Notes": "Over the Rainbow",
+      "Petit Matin": "Mansalva",
+      "Pasta and Wine": "Covered By Your Grace (lejos)"
+    },
+    "descartada": "Shantell Sans (parece comic sans, no letra a mano)",
+    "alternativa": "Erratic Cursive (CC0, libre comercial) — Ana: 'no está grave, dejémosla como posibilidad'",
+    "descartadas": [
+      "Shantell Sans (comic sans)",
+      "Hand Goo (no le gustó, licencia personal)",
+      "Les Noir (solo mayúsculas, licencia personal)"
+    ],
+    "opciones_en_brandbook": {
+      "a": "Doodle Hand (Pecita con t arreglada) — la favorita",
+      "b": "Erratic Cursive (CC0)",
+      "c": "Junkyard (GPL v2; SIN tildes ni ñ)",
+      "d": "Kalam (Google, OFL)"
+    }
+  },
+  "assets": {
+    "avatar": "Assets/retrato/2026-10-04 retrato v5 sin boca (preview).png",
+    "firma": "Assets/firma/firma.svg (vector redibujado del trazo real, 2026-10-05)",
+    "isotipo": "garabato que termina en chulo (svg en brandbook.html)"
+  },
+  "voz": [
+    "siempre en minúscula",
+    "count me in / hell no",
+    "cada post deja una acción, nunca listas de prompts",
+    "fácil de leer pero viva",
+    "frases que golpean + párrafos que fluyen, datos, preguntas al lector",
+    "spanglish y letras alargadas donde salen solos"
+  ],
+  "nunca": [
+    "mil prompts / listicles",
+    "que se note que es ia",
+    "textos larguísimos",
+    "demasiado técnico",
+    "fotos realistas de ana hechas con ia",
+    "fuego/chispa (sofía) ni luz/guía (kindu)",
+    "resaltador pastel sobre frases (se siente IA)"
+  ],
+  "canales": {
+    "linkedin": "la sala · principal · 2/sem · español",
+    "instagram": "la plaza · 1/sem · spanglish",
+    "x": "la libreta · cuando pueda",
+    "substack": "el cuaderno · 1/mes"
+  },
+  "fuera_de_lo_publico": [
+    "alemania y maestría",
+    "yc/sf",
+    "pampa",
+    "plata",
+    "spin-off de kindu",
+    "salud",
+    "familia"
+  ],
+  "brandbook": "https://claude.ai/artifact/UyMyfunogpfdZJQBc9rG57",
+  "tagline": "doodle to done (solo en inglés)"
+}
