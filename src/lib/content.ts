@@ -23,6 +23,10 @@ export type Destacado = {
   /** link opcional de la tarjeta (se muestra como pill si es una url real) */
   link?: string;
   link_label?: string;
+  /** varios links de la tarjeta (se muestran como pills) */
+  links?: { url: string; label: string }[];
+  /** caja aparte para explicar una plataforma o sistema */
+  plataforma?: { titulo: string; resumen?: string; items: { nombre: string; detalle: string }[] };
   confirmar?: string;
 };
 
@@ -145,6 +149,14 @@ export function articuloHref(a: Articulo): string | null {
 /** link de una tarjeta destacada, solo si es una url real. */
 export function destacadoHref(d: Destacado): string | null {
   return d.link && !isPending(d.link) && /^https?:\/\//i.test(d.link) ? d.link : null;
+}
+
+/** todos los links reales de una tarjeta destacada. */
+export function destacadoLinks(d: Destacado): { url: string; label: string }[] {
+  const uno = destacadoHref(d);
+  const lista = uno ? [{ url: uno, label: d.link_label || d.nombre }] : [];
+  for (const l of d.links ?? []) if (l.url && !isPending(l.url) && /^https?:\/\//i.test(l.url)) lista.push(l);
+  return lista;
 }
 
 const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];

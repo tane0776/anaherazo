@@ -136,7 +136,7 @@ export function Hero({
         aria-hidden
         className="pointer-events-none absolute inset-0 -z-10 bg-cafe/30 md:bg-transparent md:bg-gradient-to-r md:from-cafe/50 md:via-cafe/20 md:to-transparent"
       />
-      <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-5 py-16 sm:px-8 md:grid-cols-[1.25fr_1fr] md:gap-6 md:py-24">
+      <div className={cn("mx-auto grid w-full max-w-6xl items-center gap-10 px-5 py-16 sm:px-8 md:gap-6 md:py-24", aside && "md:grid-cols-[1.25fr_1fr]")}>
         <div className="min-w-0">{children}</div>
         {aside ? <div className="flex justify-center md:justify-end">{aside}</div> : null}
       </div>
