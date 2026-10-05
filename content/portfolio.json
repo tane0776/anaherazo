@@ -7,7 +7,7 @@
     "frase": "no tuve suerte. tuve intentos.",
     "sobre_mi": "construyo cosas con ia y conecto a quien tiene una idea con quien la puede mover. empecé desde la misma carrera que cualquiera: lo que cambió fue intentar muchas veces y rápido.",
     "idiomas": ["español", "inglés", "francés", "japonés (aprendiendo)"],
-    "links": {"linkedin": "[confirmar url]", "instagram": "[confirmar usuario]", "x": "[confirmar usuario]", "substack": "[confirmar]", "email": "[confirmar email público]"},
+    "links": {"linkedin": "https://www.linkedin.com/in/asherazo", "instagram": "https://instagram.com/herazozzz", "x": "https://x.com/herazozz", "substack": "", "email": "herazoana@icloud.com"},
     "cta": "escríbeme para asesorías, charlas o mesas sobre ia"
   },
   "destacados": [
@@ -17,7 +17,9 @@
       "rol": "founder · mar 2025 – hoy",
       "resumen": "tutorías personalizadas 1 a 1 para estudiantes de colegio en medellín, online o presenciales. kindu encuentra al tutor cuyo estilo encaja con cómo aprende cada niño y sigue su progreso con un perfil de aprendizaje que se alimenta después de cada clase.",
       "logros": ["2º lugar en el demo day de on.going eafit (2026)", "~21 tutores y 40 familias activas (ago 2026)", "más de 70 millones de cop en ventas", "plataforma interna construida con ia (crm, portal de tutores, perfiles de aprendizaje)"],
-      "lema": "no todos aprendemos igual. y está bien."
+      "lema": "no todos aprendemos igual. y está bien.",
+      "link": "https://instagram.com/kindu.lessons",
+      "link_label": "kindu en instagram"
     },
     {
       "id": "espacio",
@@ -43,8 +45,7 @@
       "id": "nobigdeal",
       "nombre": "no big deal",
       "rol": "founding growth marketer · oct 2026 – hoy",
-      "resumen": "marca de skincare para piel joven (lanza en octubre de 2026). armo la tienda, el funnel y el sistema del equipo para trabajar con ia.",
-      "confirmar": "confirmar con daniel bilbao / ana catalina que se puede mostrar antes del lanzamiento"
+      "resumen": "marca de skincare para piel joven (lanza en octubre de 2026). armo la tienda, el funnel y el sistema del equipo para trabajar con ia."
     }
   ],
   "trayectoria": [
